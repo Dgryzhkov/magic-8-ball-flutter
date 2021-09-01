@@ -21,6 +21,9 @@ class BallPage extends StatelessWidget {
         elevation: 0,
       ),
       body: Container(
+        child: Center(
+          child: Image.asset('images/ball1.png'),
+        ),
         decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topRight,
